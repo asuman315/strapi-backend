@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_delivery_details_door_deliveries",
+  "info": {
+    "displayName": "doorDelivery",
+    "icon": "bus"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "deliveryPrice": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_delivery_details_deliverytypes",
+  "info": {
+    "displayName": "deliverytype",
+    "icon": "bus-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "cost": {
+      "type": "biginteger"
+    }
+  }
+}

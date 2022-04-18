@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopping_carts",
+  "info": {
+    "singularName": "shopping-cart",
+    "pluralName": "shopping-carts",
+    "displayName": "shopping-cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "discountPrice": {
+      "type": "string"
+    },
+    "discountPercentage": {
+      "type": "string"
+    },
+    "specifications": {
+      "type": "richtext"
+    },
+    "shippingInfo": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "deliveryTypeOne": {
+      "displayName": "deliverytype",
+      "type": "component",
+      "repeatable": false,
+      "component": "delivery-details.deliverytype"
+    },
+    "deliveryTypeTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "delivery-details.deliverytype"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
