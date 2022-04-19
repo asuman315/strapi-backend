@@ -44,10 +44,6 @@
         "audios"
       ]
     },
-    "productName": {
-      "type": "string",
-      "required": true
-    },
     "deliveryTypeOne": {
       "displayName": "deliverytype",
       "type": "component",
