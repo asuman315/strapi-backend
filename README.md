@@ -56,4 +56,4 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
 
-This is added to test deployment errors so let us test this.
+I have decided to adjust my admin file.
