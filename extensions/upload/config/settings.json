@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "dbsbevgcj",
+    "api_key": "989269387988532",
+    "api_secret": "iCT0hjaBwIrvrGbnkOcZXe6XHLo"
+  }
+}
