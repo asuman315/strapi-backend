@@ -53,10 +53,13 @@
       "type": "text"
     },
     "price": {
-      "type": "decimal"
+      "type": "string"
     },
     "discountPrice": {
-      "type": "decimal"
+      "type": "string"
+    },
+    "discountPercentage": {
+      "type": "string"
     }
   }
 }
