@@ -34,23 +34,9 @@
         "audios"
       ]
     },
-    "deliveryTypeOne": {
-      "displayName": "deliverytype",
-      "type": "component",
-      "repeatable": false,
-      "component": "delivery-details.deliverytype"
-    },
-    "deliveryTypeTwo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "delivery-details.deliverytype"
-    },
     "name": {
       "type": "string",
       "required": true
-    },
-    "description": {
-      "type": "text"
     },
     "price": {
       "type": "decimal"
