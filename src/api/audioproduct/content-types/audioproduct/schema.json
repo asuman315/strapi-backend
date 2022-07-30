@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audioproducts",
+  "info": {
+    "singularName": "audioproduct",
+    "pluralName": "audioproducts",
+    "displayName": "audioproducts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "descriptions": {
+      "type": "richtext"
+    },
+    "percentageDiscount": {
+      "type": "integer"
+    },
+    "specifications": {
+      "type": "richtext"
+    }
+  }
+}

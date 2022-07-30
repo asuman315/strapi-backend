@@ -56,3 +56,12 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
 
+-a api-strapi-one
+
+MY_HEROKU_URL: 
+API_KEYS:
+API_TOKEN_SALT:
+ADMIN_JWT_SECRET:
+JWT_SECRET:
+
+

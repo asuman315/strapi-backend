@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audiocategories",
+  "info": {
+    "singularName": "audiocategory",
+    "pluralName": "audiocategories",
+    "displayName": "Audiocategories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
