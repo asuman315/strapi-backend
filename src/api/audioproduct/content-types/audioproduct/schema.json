@@ -38,6 +38,12 @@
     },
     "specifications": {
       "type": "richtext"
+    },
+    "audiocategory": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::audiocategory.audiocategory",
+      "inversedBy": "audioproducts"
     }
   }
 }

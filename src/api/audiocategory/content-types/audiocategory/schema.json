@@ -4,7 +4,8 @@
   "info": {
     "singularName": "audiocategory",
     "pluralName": "audiocategories",
-    "displayName": "Audiocategories"
+    "displayName": "Audiocategories",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,14 +18,21 @@
       "unique": true
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "audioproducts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::audioproduct.audioproduct",
+      "mappedBy": "audiocategory"
     }
   }
 }
