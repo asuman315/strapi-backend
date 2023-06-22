@@ -5,3 +5,6 @@ module.exports = ({ env }) => ({
     keys: env.array('APP_KEYS'),
   },
 });
+
+
+//API_KEY1=1234567890
